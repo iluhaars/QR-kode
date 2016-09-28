@@ -1,0 +1,15 @@
+﻿Build started 28.09.2016 8:21:35.
+     1>Project "D:\программирование\собственные проекты\qr_kode\qr_kode\qr_kode.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\программирование\собственные проекты\qr_kode\qr_kode\source.cpp(45): error C2371: 'BITMAPINFOHEADER' : redefinition; different basic types
+                 c:\program files (x86)\windows kits\8.1\include\um\wingdi.h(820) : see declaration of 'BITMAPINFOHEADER'
+     1>d:\программирование\собственные проекты\qr_kode\qr_kode\source.cpp(54): error C2371: 'BITMAPFILEHEADER' : redefinition; different basic types
+                 c:\program files (x86)\windows kits\8.1\include\um\wingdi.h(939) : see declaration of 'BITMAPFILEHEADER'
+     1>d:\программирование\собственные проекты\qr_kode\qr_kode\source.cpp(58): error C2061: syntax error : identifier '_TCHAR'
+     1>Done Building Project "D:\программирование\собственные проекты\qr_kode\qr_kode\qr_kode.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.04
